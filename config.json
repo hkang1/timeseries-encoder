@@ -1,0 +1,31 @@
+{
+  "companies": [
+    "86cd7b58-b47a-11e8-bede-8fee55bd2cbe",
+    "819a5bb0-b47a-11e8-bed9-a7787a7e5890"
+  ],
+  "company_id": "819a5bb0-b47a-11e8-bed9-a7787a7e5890",
+  "path_cache": "cache",
+  "path_data": "%s/%s_data.pkl.gz",
+  "path_devices": "%s/%s_devices.csv",
+  "path_analysis": "%s/%s_analysis.pkl.gz",
+  "url_api": "https://api.parsyl.io",
+  "skip_devices": [ "4209194a" ],
+  "days": 30,
+  "offset": 2000,
+  "size": 512,
+  "volatility": [ 0.0, 0.03 ],
+  "y_target": 5.0,
+  "y_min": -5.0,
+  "y_max": 37.0,
+  "y_thresholds": [ 2.0, 8.0 ],
+  "y_range": [ -5.0, 37.0 ],
+  "penalty_default": 1.0,
+  "penalty_cold": 9.0,
+  "penalty_warm": 2.0,
+  "penalty_max": 10.0,
+  "color_default": [ 0.5, 0.5, 0.5, 1.0 ],
+  "color_standard": [ 1.0, 0.75, 0.0, 1.0 ],
+  "color_score": [ 0.0, 0.5, 1.0, 1.0 ],
+  "color_cold": [ 0.0, 0.0, 1.0, 1.0 ],
+  "color_warm": [ 1.0, 0.0, 0.0, 1.0 ]
+}
